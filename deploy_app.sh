@@ -29,6 +29,6 @@ cd $PROJECT_NAME
 
 # Start Docker Compose
 echo "Starting Docker Compose..."
-sudo docker-compose up -d
+sudo docker compose up -d
 
 echo "Deployment completed for environment: $ENVIRONMENT"
