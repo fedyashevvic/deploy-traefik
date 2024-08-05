@@ -10,7 +10,7 @@ This repository contains scripts to automate SSH key generation and application 
 ## Usage
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git projects_root
+git clone https://github.com/fedyashevvic/deploy-traefik.git projects_root
 cd projects_root
 chmod +x generate_ssh_key.sh
 chmod +x deploy_app.sh
