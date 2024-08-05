@@ -11,12 +11,9 @@ This repository contains scripts to automate SSH key generation and application 
 
 ```bash
 # HERE YOU NEED TO ADD A RECORDS FOR YOUR DOMAIN FROM docker-compose.yml
-git clone https://github.com/fedyashevvic/deploy-traefik.git projects_root
-cd projects_root
-chmod +x generate_ssh_key.sh
-chmod +x deploy_app.sh
+git clone https://github.com/fedyashevvic/deploy-traefik.git projects_root && cd projects_root && chmod +x generate_ssh_key.sh && chmod +x deploy_app.sh
 
 ./generate_ssh_key.sh <your_email>
 # HERE YOU NEED TO ADD THE GENERATED SSH KEY TO GITHUB
-./deploy_app.sh <your_repository> <your_repository_name>
+./deploy_app.sh <your_repository> ../<your_repository_name>
 ```
